@@ -18,7 +18,7 @@ private:
 public:
     Cola();                          // Constructora: Construye una cola vacía
     bool esVaciaCola() const;         // Analizadora: Retorna si la cola está vacía
-    Cola insertarElem(const std::string& turno);  // Modificadora: Inserta un nuevo turno
+    Cola insertarElem(const std::string &elemento);  // Modificadora: Inserta un nuevo turno
     Cola atender(std::string &elemento);      // Modificadora: Extrae el primer elemento de la cola
     Cola eliminarElem(const std::string &posicion);  // Modificadora: Elimina un elemento por su posición
     std::string ultimoElem() const;           // Analizadora: Retorna el último elemento de la cola

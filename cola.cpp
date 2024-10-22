@@ -1,6 +1,3 @@
-//
-// Created by HP on 21/10/2024.
-//
 #include <string>
 #include "Cola.h"
 
