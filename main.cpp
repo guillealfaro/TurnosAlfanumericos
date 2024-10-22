@@ -4,7 +4,9 @@
 int main() {
     Cola miCola;
     std::string turno;
+    std::string atendido;
     int opcion;
+
 
     do {
         std::cout <<"\n Sistema de Turnos BAC ";
@@ -23,12 +25,12 @@ int main() {
             std::cin >> turno;
             miCola.insertarElem(turno);
             break;
-            //case 2:
-                //std::string atendido;
-           // miCola.atender(atendido);
-            //std::cout << "Turno atendido: " << atendido << "\n";
-            //std::cout << "Ahora la cola tiene " << miCola.getLongitud() << " turnos.\n";
-            //break;
+            case 2:
+
+                miCola.atender(atendido);
+            std::cout << "Turno atendido: " << atendido << "\n";
+            std::cout << "Ahora la cola tiene " << miCola.getLongitud() << " turnos.\n";
+            break;
 
             case 3:
                 std::cout << "El ultimo turno es: " << miCola.ultimoElem() << "\n";
